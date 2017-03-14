@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskyAndroid", "TaskyAndroi
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TaskySharedCode", "TaskySharedCode\TaskySharedCode.shproj", "{579BD547-2865-4254-B242-8EB4DDB25288}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskyUITests", "TaskyUITests\TaskyUITests.csproj", "{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -31,6 +33,14 @@ Global
 		{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}.Release|iPhone.Build.0 = Release|Any CPU
 		{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{46D0B5E7-5AF2-499B-876F-FA9A897BEDD0}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = TaskyiOS\TaskyiOS.csproj
