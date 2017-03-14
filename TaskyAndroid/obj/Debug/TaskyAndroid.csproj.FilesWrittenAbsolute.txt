@@ -12,6 +12,7 @@
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/res/drawable-mdpi/icon.png
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/res/values/styles.xml
+/Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/res/drawable-hdpi/check.png
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/R.cs.flag
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/bin/Debug/com.xamarin.samples.taskyandroid-Signed.apk
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/uploadflags.txt

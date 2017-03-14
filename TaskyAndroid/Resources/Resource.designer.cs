@@ -45,7 +45,10 @@ namespace TaskyAndroid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int check = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -65,6 +68,9 @@ namespace TaskyAndroid
 			
 			// aapt resource value: 0x7f060009
 			public const int CancelDeleteButton = 2131099657;
+			
+			// aapt resource value: 0x7f06000b
+			public const int Image = 2131099659;
 			
 			// aapt resource value: 0x7f060002
 			public const int NameLabel = 2131099650;

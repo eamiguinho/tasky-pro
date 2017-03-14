@@ -43,26 +43,28 @@ namespace TaskyAndroid.ApplicationLayer
 			// gives us some performance gains by not always inflating a new view
 			// will sound familiar to MonoTouch developers with UITableViewCell.DequeueReusableCell()
 
-//			var view = (convertView ?? 
-//					context.LayoutInflater.Inflate(
-//					Resource.Layout.TaskListItem, 
-//					parent, 
-//					false)) as LinearLayout;
-//			// Find references to each subview in the list item's view
-//			var txtName = view.FindViewById<TextView>(Resource.Id.NameText);
-//			var txtDescription = view.FindViewById<TextView>(Resource.Id.NotesText);
-//			//Assign item's values to the various subviews
-//			txtName.SetText (item.Name, TextView.BufferType.Normal);
-//			txtDescription.SetText (item.Notes, TextView.BufferType.Normal);
+			var view = (convertView ?? 
+					context.LayoutInflater.Inflate(
+					Resource.Layout.TaskListItem, 
+					parent, 
+				            false)) as RelativeLayout;
+			// Find references to each subview in the list item's view
+			var txtName = view.FindViewById<TextView>(Resource.Id.NameText);
+			var txtDescription = view.FindViewById<TextView>(Resource.Id.NotesText);
+			var image = view.FindViewById<ImageView>(Resource.Id.Image);
 
-			// TODO: use this code to populate the row, and remove the above view
-			var view = (convertView ??
-				context.LayoutInflater.Inflate(
-					Android.Resource.Layout.SimpleListItemChecked,
-					parent,
-					false)) as CheckedTextView;
-			view.SetText (item.Name==""?"<new task>":item.Name, TextView.BufferType.Normal);
-			view.Checked = item.Done;
+			//Assign item's values to the various subviews
+			txtName.SetText (item.Name, TextView.BufferType.Normal);
+			txtDescription.SetText (item.Notes, TextView.BufferType.Normal);
+			image.Visibility = item.Done ? Android.Views.ViewStates.Visible : Android.Views.ViewStates.Gone;
+			//// TODO: use this code to populate the row, and remove the above view
+			//var view = (convertView ??
+			//	context.LayoutInflater.Inflate(
+			//	            Resource.Layout.TaskListItem,
+			//		parent,
+			//		false)) as CheckedTextView;
+			//view.SetText (item.Name==""?"<new task>":item.Name, TextView.BufferType.Normal);
+			//view.Checked = item.Done;
 
 
 			//Finally return the view

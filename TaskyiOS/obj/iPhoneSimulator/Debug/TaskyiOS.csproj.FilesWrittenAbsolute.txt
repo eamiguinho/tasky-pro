@@ -20,3 +20,4 @@
 /Users/emanuel.amiguinho/tasky-pro/TaskyiOS/bin/iPhoneSimulator/Debug/Tasky.exe
 /Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/Tasky.exe
 /Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/Tasky.exe.mdb
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/bin/iPhoneSimulator/Debug/Calabash.dll

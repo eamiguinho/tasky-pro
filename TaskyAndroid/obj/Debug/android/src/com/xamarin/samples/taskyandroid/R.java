@@ -11,11 +11,13 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int check=0x7f020000;
+        public static final int icon=0x7f020001;
     }
     public static final class id {
         public static final int AddButton=0x7f060000;
         public static final int CancelDeleteButton=0x7f060009;
+        public static final int Image=0x7f06000b;
         public static final int NameLabel=0x7f060002;
         public static final int NameText=0x7f060004;
         public static final int NotesLabel=0x7f060005;
