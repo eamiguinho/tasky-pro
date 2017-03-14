@@ -1,0 +1,12 @@
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Numerics.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Core.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Json.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Transactions.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mono.Data.Sqlite.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Tasky.exe
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/MonoTouch.Dialog-1.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Data.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Xml.dll
