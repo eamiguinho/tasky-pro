@@ -1,4 +1,4 @@
-/Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/MonoAndroid,Version=v7.1.AssemblyAttribute.cs
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/bin/Debug/TaskyAndroid.dll.mdb
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/bin/Debug/TaskyAndroid.dll
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/bin/Debug/com.xamarin.samples.taskyandroid.apk
@@ -17,4 +17,3 @@
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/uploadflags.txt
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/TaskyAndroid.dll
 /Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/TaskyAndroid.dll.mdb
-/Users/emanuel.amiguinho/tasky-pro/TaskyAndroid/obj/Debug/MonoAndroid,Version=v7.1.AssemblyAttribute.cs
