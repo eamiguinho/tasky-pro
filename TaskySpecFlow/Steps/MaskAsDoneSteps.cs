@@ -35,7 +35,6 @@ namespace TaskySpecFlow
 		[Then(@"I should see the ""(.*)"" task marked as done in the list")]
 		public void CheckIfIsMarkedAsDone(string taskName)
 		{
-			app.Repl();
 			app.Query(c => c.Marked(taskName)).Length.ShouldBeGreaterThan(0);
 			app.Query(c => c.Marked("Image")).Length.ShouldBeGreaterThan(0);
 		}

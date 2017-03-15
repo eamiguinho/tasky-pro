@@ -24,7 +24,7 @@ namespace TaskySpecFlow
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
-			FeatureContext.Current.Add("App", app);
+			FeatureContext.Current["App"] = app;
 			AppInitializer.InitializeScreens(platform);
 		}
 	}

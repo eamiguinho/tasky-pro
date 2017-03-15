@@ -81,6 +81,27 @@ this.ScenarioSetup(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Add more than one task")]
+        [NUnit.Framework.TestCaseAttribute("\"Get Milk\"", new string[0])]
+        [NUnit.Framework.TestCaseAttribute("\"Get Pizza\"", new string[0])]
+        public virtual void AddMoreThanOneTask(string task_Name, string[] exampleTags)
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add more than one task", exampleTags);
+#line 12
+this.ScenarioSetup(scenarioInfo);
+#line 13
+    testRunner.Given("I am on the Home screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 14
+    testRunner.When(string.Format("I add a new task called {0}", task_Name), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 15
+    testRunner.And("I save the task", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 16
+    testRunner.Then(string.Format("I should see the {0} task in the list", task_Name), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore

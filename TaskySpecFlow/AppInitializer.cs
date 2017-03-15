@@ -29,13 +29,13 @@ namespace TaskySpecFlow
 		{
 			if (platform == Platform.iOS)
 			{
-				FeatureContext.Current.Add(ScreenNames.Home, new HomeScreenIos());
-				FeatureContext.Current.Add(ScreenNames.AddTask, new AddTaskScreenIos());
+				FeatureContext.Current[ScreenNames.Home] = new HomeScreenIos();
+				FeatureContext.Current[ScreenNames.AddTask] = new AddTaskScreenIos();
 			}
 			else if (platform == Platform.Android)
 			{
-				FeatureContext.Current.Add(ScreenNames.Home, new HomeScreenAndroid());
-				FeatureContext.Current.Add(ScreenNames.AddTask, new AddTaskScreenAndroid());
+				FeatureContext.Current[ScreenNames.Home] = new HomeScreenAndroid();
+				FeatureContext.Current[ScreenNames.AddTask] = new AddTaskScreenAndroid();
 			}
 		}
 	}

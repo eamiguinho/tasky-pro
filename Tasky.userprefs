@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}|Default">
-  <MonoDevelop.Ide.ItemProperties.TaskyAndroid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.57.101:5555" AndroidDesignerPreferredTheme="Theme.Tasky" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskySpecFlow/Features/MarkTaskAsDoneFeature.cs">
+  <MonoDevelop.Ide.ItemProperties.TaskyAndroid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.Tasky" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskySpecFlow/Steps/AddATaskSteps.cs">
     <Files>
       <File FileName="TaskyAndroid/HomeScreen.cs" Line="63" Column="29" />
       <File FileName="TaskyAndroid/TodoItemScreen.cs" Line="1" Column="1" />
@@ -8,47 +8,28 @@
       <File FileName="TaskyiOS/EditingSource.cs" Line="41" Column="3" />
       <File FileName="TaskyiOS/AppDelegate.cs" Line="64" Column="16" />
       <File FileName="TaskyiOS/TodoItemDialog.cs" Line="36" Column="25" />
-      <File FileName="TaskySpecFlow/AddATask.feature" Line="9" Column="54" />
+      <File FileName="TaskySpecFlow/AddATask.feature" Line="7" Column="9" />
       <File FileName="TaskySpecFlow/packages.config" Line="1" Column="1" />
       <File FileName="TaskySpecFlow/App.config" Line="1" Column="1" />
-      <File FileName="TaskySpecFlow/AppInitializer.cs" Line="35" Column="24" />
-      <File FileName="TaskySpecFlow/AddATask.feature.cs" Line="22" Column="44" />
-      <File FileName="TaskySpecFlow/Steps/AddATaskSteps.cs" Line="52" Column="69" />
-      <File FileName="TaskySpecFlow/Screens/IAddTaskScreen.cs" Line="26" Column="104" />
+      <File FileName="TaskySpecFlow/AppInitializer.cs" Line="37" Column="71" />
+      <File FileName="TaskySpecFlow/AddATask.feature.cs" Line="22" Column="19" />
+      <File FileName="TaskySpecFlow/Steps/AddATaskSteps.cs" Line="28" Column="4" />
+      <File FileName="TaskySpecFlow/Screens/IAddTaskScreen.cs" Line="17" Column="111" />
       <File FileName="TaskySpecFlow/Screens/IHomeScreen.cs" Line="11" Column="2" />
-      <File FileName="TaskySpecFlow/Features/FeatureBase.cs" Line="22" Column="3" />
+      <File FileName="TaskySpecFlow/Features/FeatureBase.cs" Line="28" Column="32" />
       <File FileName="TaskySpecFlow/Screens/ScreenNames.cs" Line="4" Column="31" />
-      <File FileName="TaskySpecFlow/Features/AddingATaskFeature.cs" Line="16" Column="1" />
+      <File FileName="TaskySpecFlow/Features/AddingATaskFeature.cs" Line="8" Column="25" />
       <File FileName="TaskySpecFlow/MarkTaskAsDone.feature" Line="12" Column="66" />
       <File FileName="TaskySpecFlow/Steps/MaskAsDoneSteps.cs" Line="32" Column="30" />
       <File FileName="TaskySpecFlow/MarkTaskAsDone.feature.cs" Line="1" Column="1" />
       <File FileName="TaskySpecFlow/Features/MarkTaskAsDoneFeature.cs" Line="15" Column="1" />
       <File FileName="TaskyAndroid/TodoItemListAdapter.cs" Line="60" Column="30" />
+      <File FileName="TaskySpecFlow/Steps/CommonSteps.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Tasky" expanded="True">
-            <Node name="TaskySpecFlow" expanded="True">
-              <Node name="Test Apps" expanded="True" />
-              <Node name="TaskySpecFlow" expanded="True">
-                <Node name="AddingATaskFeature" expanded="True">
-                  <Node name="AddingATaskFeature(Android)" expanded="True" />
-                  <Node name="AddingATaskFeature(iOS)" expanded="True" />
-                </Node>
-                <Node name="MarkTaskAsDoneFeature" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/emanuel.amiguinho/tasky-pro/TaskySpecFlow/AppInitializer.cs" relfile="TaskySpecFlow/AppInitializer.cs" line="30" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TaskyiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B5C9D03B-130B-42E6-AC91-ED91ADD20996" />
