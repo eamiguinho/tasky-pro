@@ -8,5 +8,6 @@
 /Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
 /Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Tasky.exe
 /Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/MonoTouch.Dialog-1.dll
+/Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Calabash.dll
 /Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Data.dll
 /Users/emanuel.amiguinho/tasky-pro/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.Xml.dll

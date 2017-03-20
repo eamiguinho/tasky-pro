@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0E7126F-E127-44E6-BE7D-0DD2DFBB7342}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TaskySpecFlow</RootNamespace>
+    <AssemblyName>TaskySpecFlow</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Xamarin.UITest">
+      <HintPath>..\packages\Xamarin.UITest.2.0.7\lib\Xamarin.UITest.dll</HintPath>
+    </Reference>
+    <Reference Include="Should">
+      <HintPath>..\packages\Should.1.1.20\lib\Should.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\packages\SpecFlow.2.1.0\lib\net45\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AddATask.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>AddATask.feature.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="App.config" />
+    <None Include="MarkTaskAsDone.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MarkTaskAsDone.feature.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddATask.feature.cs">
+      <DependentUpon>AddATask.feature</DependentUpon>
+    </Compile>
+    <Compile Include="AppInitializer.cs" />
+    <Compile Include="Steps\AddATaskSteps.cs" />
+    <Compile Include="Screens\IAddTaskScreen.cs" />
+    <Compile Include="Screens\IHomeScreen.cs" />
+    <Compile Include="Features\FeatureBase.cs" />
+    <Compile Include="Screens\ScreenNames.cs" />
+    <Compile Include="Features\AddingATaskFeature.cs" />
+    <Compile Include="MarkTaskAsDone.feature.cs">
+      <DependentUpon>MarkTaskAsDone.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Steps\MaskAsDoneSteps.cs" />
+    <Compile Include="Features\MarkTaskAsDoneFeature.cs" />
+    <Compile Include="Steps\CommonSteps.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TaskyiOS\TaskyiOS.csproj">
+      <Project>{08FAE550-E302-4022-A871-17E0462E99F3}</Project>
+      <Name>TaskyiOS</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\TaskyAndroid\TaskyAndroid.csproj">
+      <Project>{82F04C1E-2F0D-4396-ADC3-BC9EADEE8E7E}</Project>
+      <Name>TaskyAndroid</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Steps\" />
+    <Folder Include="Screens\" />
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
